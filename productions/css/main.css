@@ -86,6 +86,15 @@ basically the same thing as overflow   =========================================
 	width: 8.333%;	
 }
 
+
+.col-5-12 {
+	width: 41.14726563%;	
+}
+
+.col-7-12 {
+	width: 57.92646484%;	
+}
+
 @media screen and (max-width:768px) {
 .wrapper {
 	width:95%;
