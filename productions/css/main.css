@@ -17,6 +17,7 @@
 	padding-bottom:20px; 	
 }
 
+
 /*=================  clears on all browsers
 we also want to use the psuedo selector after
 basically the same thing as overflow   ==================================================*/
@@ -86,6 +87,9 @@ basically the same thing as overflow   =========================================
 	width: 8.333%;	
 }
 
+.col-2-12 {
+	width:15.9580078125%;	
+}
 
 .col-5-12 {
 	width: 41.14726563%;	
@@ -93,6 +97,10 @@ basically the same thing as overflow   =========================================
 
 .col-7-12 {
 	width: 57.92646484%;	
+}
+
+.col-8-12 {
+	width: 66.29228515625%;	
 }
 
 @media screen and (max-width:768px) {
@@ -149,4 +157,15 @@ basically the same thing as overflow   =========================================
 	width: 50%;	
 }
 		
+}
+
+
+
+#feed {
+	height:600px;
+	overflow:scroll;	
+}
+
+iframe img {
+	width:300px !important;	
 }
