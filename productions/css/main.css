@@ -1,5 +1,10 @@
 @charset "UTF-8";
 /* CSS Document */
+html {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 19px;
+}
+
 *, *:after, *:before {
 	box-sizing:border-box;
 	-webkit-box-sizing:border-box;
@@ -14,9 +19,161 @@
 
 .row {
 	width:100%;
-	padding-bottom:20px; 	
+	padding-bottom:20px; 
 }
 
+/*======= Typography ===========================
+================================================*/
+
+h2 {
+	font-family: 'Paytone One', sans-serif;
+	font-size:3.9375rem;
+	color:#1A2530;
+	letter-spacing: .1rem;
+}
+
+.center {
+	text-align:center;	
+}
+
+.h3 {
+	font-family: 'Titillium Web', sans-serif;
+	font-size:2.25rem;
+	color:#506577;
+	margin-bottom:0;
+}
+
+.h4 {
+	font-size:1.25rem;	
+	font-weight:300;
+	color:#506577;
+
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.4rem;	
+}
+
+a {
+	color: black;
+	text-decoration:none;
+} 
+
+/*======= End of Typography ===========================
+================================================*/
+
+
+
+/*======= HEADER   ====================================
+=========          ==================================*/
+header {
+	height:109px;
+	width:auto;
+	background-color: #F2F2F2;	
+}
+
+#logo {
+	height: 109px;
+}
+
+nav ul {
+	text-align: right;
+}
+
+nav ul li {
+	padding:30px;
+	display:inline-block;
+	font-weight:300;
+}
+
+nav ul li a {
+	padding:10px 10px;	
+}
+
+nav ul li a:hover {
+	color:white;
+	background-color:#DA5332;
+	padding:10px 10px;	
+}
+
+nav ul li a:active {
+	color:white;
+	background-color:#B62A2A;	
+}
+
+/*=======  END OF HEADER  ====================================
+=========                 ==================================*/
+
+
+/*======   ABOUT US  =========================================
+========             =======================================*/
+
+#section1 {
+	height:600px;
+	background-color: white;	
+}
+
+#section1 h2 {
+	margin-top:130px;
+}
+
+#section1 a {
+	background-color:#DA5332;
+	color:#F2F2F2;	
+	line-height:4rem;
+	padding:15px 20px;
+}
+
+#section1 a:hover {
+	background-color:#B62A2A;
+	color:#F2F2F2;	
+	line-height:4rem;
+	padding:15px 20px;
+}
+
+/*======   END OF ABOUT US  =========================================
+========                    =======================================*/
+
+
+
+/*======   HERO   ====================================================
+========          ==================================================*/
+
+#hero {
+	background:url(../img/hero_2.jpg) no-repeat center;
+	height:625px;
+	width:100%;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+#hero h2, #hero blockquote {
+	color: white;
+	padding-top: 420px;
+}
+
+#hero h2 {
+	margin-bottom:10px;	
+}
+
+#hero blockquote {
+	font-family:'open sans';
+	font-style:italic;
+	font-weight:300;
+	font-size:1rem;
+	margin:0;
+	padding:0 10px;
+}
+
+#herotype {
+	font-weight:300;
+	font-size:1.5rem;
+	color:#506577;
+
+}	
 
 /*=================  clears on all browsers
 we also want to use the psuedo selector after
@@ -157,15 +314,4 @@ basically the same thing as overflow   =========================================
 	width: 50%;	
 }
 		
-}
-
-
-
-#feed {
-	height:600px;
-	overflow:scroll;	
-}
-
-iframe img {
-	width:300px !important;	
 }

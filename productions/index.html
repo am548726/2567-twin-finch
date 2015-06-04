@@ -3,7 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <title>Responsive Grid</title>
-<link rel="stylesheet" href="css/normalize.css"/>
+<link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,300,200' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Paytone+One' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'><link rel="stylesheet" href="css/normalize.css"/>
 <link rel="stylesheet" href="css/main.css"/>
 </head>
 
@@ -13,16 +15,16 @@
     <div class="wrapper">
     	<div class="row">
         	<div class="col-5-12">
-            	<img src="null" alt="logo" />
+            	<img id="logo" src="img/bg-logo.svg" alt="Twin Finch Logo" />
             </div>
             
               <div class="col-7-12">
                 <nav>
                 	<ul>
-                    	<li><a>Link 1</a></li>
-                        <li><a>Link 2</a></li>
-                        <li><a>Link 3</a></li>
-                        <li><a>Link 4</a></li>
+                    	<li><a href="#">About Us</a></li>
+                        <li><a href="#">Roast</a></li>
+                        <li><a href="#">Contact Form</a></li>
+                        <li><a href="#">Join Us</a></li>
                     </ul>
                 </nav>
             </div>
@@ -34,11 +36,11 @@
 <div id="section1">
 	<div class="wrapper">
         <div class="row">
-            <div class="col-1-1">
+            <div class="col-1-1 center">
                 <h2>Twin Finch</h2>
-                <p>Precise &amp; Accurate</p>
+                <p class="h3">Precise &amp; Accurate</p>
                 <p>Twin Finch Roastery is an authentic microroastery; small, dedicated, and highly focused on quality. We have a constantly evolving, hand picked selection of fine coffee origins and delicious blends engineered to help you brew a cafe quality cup at home.</p>
-                <a>View Roasts</a>
+                <a href="#">View Roasts</a>
             </div>
         </div>
       </div>
@@ -47,34 +49,36 @@
 <section>
     <div class="wrapper">
         <div class="row">
-            <div class="col-1-1">
-                <h2>Evening Oak</h2>
-                <blockquote>“This extraordinary coffee almost defies description with its aromatic complexity while retaining a classic clarity of structure.” Coffee Review</blockquote>
-                <p>Medium-Dark Roast</p>
-                <p>$19.95 Per Pound</p>
+            <div class="col-1-1 center">
+            	<div id="hero">
+                	<h2>Evening Oak</h2>
+                	<blockquote>“This extraordinary coffee almost defies description with its aromatic complexity while retaining a classic clarity of structure.” &#8212;Coffee Review</blockquote>
+                </div>
+                <p class="h3">Medium-Dark Roast</p>
+                <p id="herotype">$19.95 Per Pound</p>
                 <p>Pungently rich and complex with hints of nightblooming flowers and coriander in aroma and cup. Gathered in Eastern Java, Indonesia.</p>
-                <a>Buy Now</a>
+                <a href="#">Buy Now</a>
             </div>
         </div>
     </div>
     
     <div class="wrapper">
         <div class="row">
-            <div class="col-1-2">
+            <div class="col-1-2 center">
             	<img src="null" alt="picture" />
                 <h2>Sunrise Blend</h2>
-                <p>Light Roast</p>
-                <p>$17.95 Per Pound</p>
+                <p class="h3">Light Roast</p>
+                <p class="h4">$17.95 Per Pound</p>
                 <p>Light, fruity acidity which complements its fully nutty body and unique spicy tones that originates from Las Chiapas, Mexico.</p>
-                <a>Buy Now</a>
+                <a href="#">Buy Now</a>
             </div>
-            <div class="col-1-2">
+            <div class="col-1-2 center">
             	<img src="null" alt="picture" />
                 <h2>Finch House Blend</h2>
-                <p>Medium Roast</p>
-                <p>$17.95 Per Pound</p>
+                <p class="h3">Medium Roast</p>
+                <p class="h4">$17.95 Per Pound</p>
                 <p>Hint of citrus, complemented by flavors of dark chocolate, peanut and light pepper notes. Found in Cajamarca & Moyobamba Regions, Peru</p>
-                <a>Buy Now</a>
+                <a href="#">Buy Now</a>
                 <p>Rating Reviews<br>98/100</p>
             </div>
         </div>
@@ -82,28 +86,27 @@
     
     <div class="wrapper">
         <div class="row">
-            <div class="col-1-2">
+            <div class="col-1-2 center">
             	<img src="null" alt="picture" />
                 <h2>Midnight</h2>
-                <p>Dark</p>
-                <p>$17.95 Per Pound</p>
+                <p class="h3">Dark</p>
+                <p class="h4">$17.95 Per Pound</p>
                 <p>Roasted into second crack for a big, bold and dark cup. Beans display oil. From Latin America</p>
-                <a>Buy Now</a>
+                <a href="#">Buy Now</a>
             </div>
-            <div class="col-1-2">
-            	<img src="null" alt="picture" />
-                <h2>Espresso</h2>
-                <p>Special Roast</p>
-                <p>$19.95 Per Pound</p>
+            <div class="col-1-2 center">
+              	<h2>Espresso</h2>
+                <p class="h3">Special Roast</p>
+                <p class="h4">$19.95 Per Pound</p>
                 <p>Clean, a little roasty, sumptuous crema, unfussy, and delicious. From Latin America, Africa and Indonesia.</p>
-                <a>Buy Now</a>
+                <a href="#">Buy Now</a>
             </div>
         </div>
     </div>
     
     <div class="wrapper">
         <div class="row">
-            <div class="col-8-12">
+            <div class="col-8-12 center">
             <p>Online orders usually ship quickly and arrive within three business days. We only ship the freshest coffee and your satisfaction is guaranteed. Our rotating, featured coffees are roasted on a more limited basis and your order may be held until the next time a batch hits the roaster. We only ship whole bean, but will grind for you instore per request.</p>
             </div>
         </div>
@@ -114,9 +117,9 @@
     <div id="background-color">
         <div class="wrapper">
             <div class="row">
-                <div class="col-1-1">
+                <div class="col-1-1 center">
                     <h2>Our Proccess</h2>
-                    <p>High Quality Control</p>
+                    <p class="h3">High Quality Control</p>
                     <p>Our coffee is roasted in a hot air, refractory lined roaster with an extraordinary level of control. The significance of relying on a high volume of hot air to roast coffee beans can't be understated. Most small coffee roasters use a single stage burner which offers virtually no control during the roasting process. The refractory significantly reduces hot spots which can damage coffee beans and produces a much more even roasting environment.</p>
                 </div>
             </div>
@@ -127,7 +130,7 @@
 
 <div class="wrapper">
 	<div class="row">        
-        <div class="col-8-12">
+        <div class="col-8-12 center">
         	<form>
             	<label for="firstName">First Name</label>
                 <input type="text" id="firstName">
@@ -150,13 +153,13 @@
 
 <div class="wrapper">
 	<div class="row">
-    	<div class="col-1-1">
+    	<div class="col-1-1 center">
         <h2>Join Our Commmunity</h2>
 		</div>    
     </div>
     
     <div class="row">
-    	<div class="col-3-12">
+    	<div class="col-3-12 center">
         	<img src="null" alt="icon" />
             <img src="null" alt="icon" />
             <img src="null" alt="icon" />
@@ -171,7 +174,7 @@
 
 <div class="wrapper">
 	<div class="row">
-    	<div class="col-1-1">
+    	<div class="col-1-1 center">
         	<h2>Come and Meet Us</h2>
             <p>You can buy from us directly at our Seattle storefront located at 457 NW Market Street.</p>
             <img src="null" alt="Map for Twin Finch" />
@@ -182,29 +185,29 @@
 <footer>
 	<div class="wrapper">
     	<div class="row">
-        	<div class="col-1-6">
-            	<a>Link 1</a>
-                <a>Link 2</a>
+        	<div class="col-1-6 center">
+            	<a href="#">Link 1</a>
+                <a href="#">Link 2</a>
             </div>
         	<div class="col-1-6">
-            	<a>Link 3</a>
-                <a>Link 4</a>
+            	<a href="#">Link 3</a>
+                <a href="#">Link 4</a>
             </div>
         	<div class="col-1-6">
-            	<a>Link 5</a>
-                <a>Link 6</a>
+            	<a href="#">Link 5</a>
+                <a href="#">Link 6</a>
             </div>
         	<div class="col-1-6">
-            	<a>Link 7</a>
-                <a>Link 8</a>
+            	<a href="#">Link 7</a>
+                <a href="#">Link 8</a>
             </div>
         	<div class="col-1-6">
-            	<a><img src="null" alt="Logo" /></a>
-                <a><img src="null" alt="Logo" /></a>
+            	<a href="#"><img src="null" alt="Logo" /></a>
+                <a href="#"><img src="null" alt="Logo" /></a>
             </div>
         	<div class="col-1-6">
-            	<a><img src="null" alt="Logo" /></a>
-                <a><img src="null" alt="Logo" /></a>
+            	<a href="#"><img src="null" alt="Logo" /></a>
+                <a href="#"><img src="null" alt="Logo" /></a>
             </div>            
         </div>
     </div>
