@@ -2,6 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+
 <title>Responsive Grid</title>
 <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,300,200' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Paytone+One' rel='stylesheet' type='text/css'>
@@ -21,10 +22,10 @@
               <div class="col-7-12">
                 <nav>
                 	<ul>
-                    	<li><a href="#">About Us</a></li>
-                        <li><a href="#">Roast</a></li>
-                        <li><a href="#">Contact Form</a></li>
-                        <li><a href="#">Join Us</a></li>
+                    	<li><a href="#aboutUs">About Us</a></li>
+                        <li><a href="#roasts">Roast</a></li>
+                        <li><a href="#ourProccess">Our Proccess</a></li>
+                        <li><a href="#contactForm">Contact Form</a></li>
                     </ul>
                 </nav>
             </div>
@@ -32,21 +33,22 @@
     </div>
 </header>
 
-
-<div id="section1">
-	<div class="wrapper">
-        <div class="row">
-            <div class="col-1-1 center">
-                <h2>Twin Finch</h2>
-                <p class="h3">Precise &amp; Accurate</p>
-                <p>Twin Finch Roastery is an authentic microroastery; small, dedicated, and highly focused on quality. We have a constantly evolving, hand picked selection of fine coffee origins and delicious blends engineered to help you brew a cafe quality cup at home.</p>
-                <a href="#">View Roasts</a>
+<section id="aboutUs">
+    <div id="section1">
+        <div class="wrapper">
+            <div class="row">
+                <div class="col-1-1 center">
+                    <h2>Twin Finch</h2>
+                    <p class="h3">Precise &amp; Accurate</p>
+                    <p>Twin Finch Roastery is an authentic microroastery; small, dedicated, and highly focused on quality. We have a constantly evolving, hand picked selection of fine coffee origins and delicious blends engineered to help you brew a cafe quality cup at home.</p>
+                    <a href="#roasts">View Roasts</a>
+                </div>
             </div>
-        </div>
-      </div>
-</div>
+          </div>
+    </div>
+</section>
 
-<section>
+<section id="roasts">
     <div class="wrapper">
         <div class="row">
             <div class="col-1-1 center">
@@ -57,7 +59,7 @@
                 <p class="h3">Medium-Dark Roast</p>
                 <p id="herotype">$19.95 Per Pound</p>
                 <p>Pungently rich and complex with hints of nightblooming flowers and coriander in aroma and cup. Gathered in Eastern Java, Indonesia.</p>
-                <a href="#">Buy Now</a>
+                <div class="btn"><a class="btn-buy" href="#">Buy Now</a></div>
             </div>
         </div>
     </div>
@@ -65,21 +67,21 @@
     <div class="wrapper">
         <div class="row">
             <div class="col-1-2 center">
-            	<img src="null" alt="picture" />
-                <h2>Sunrise Blend</h2>
+            	<img src="img/sunrise.png" alt="Product shot of Sunrise Blend" />
+                <h2 class="h2products">Sunrise</h2>
                 <p class="h3">Light Roast</p>
                 <p class="h4">$17.95 Per Pound</p>
                 <p>Light, fruity acidity which complements its fully nutty body and unique spicy tones that originates from Las Chiapas, Mexico.</p>
-                <a href="#">Buy Now</a>
+                <div class="btn"><a class="btn-buy" href="#">Buy Now</a></div>
             </div>
             <div class="col-1-2 center">
-            	<img src="null" alt="picture" />
-                <h2>Finch House Blend</h2>
+            	<img src="img/finchHouse.png" alt="picture" />
+                <h2 class="h2products">Finch House</h2>
                 <p class="h3">Medium Roast</p>
                 <p class="h4">$17.95 Per Pound</p>
                 <p>Hint of citrus, complemented by flavors of dark chocolate, peanut and light pepper notes. Found in Cajamarca & Moyobamba Regions, Peru</p>
-                <a href="#">Buy Now</a>
-                <p>Rating Reviews<br>98/100</p>
+                <div class="btn"><a class="btn-buy" href="#">Buy Now</a></div>
+                <p id="review">Rating Reviews<br>98/100</p>
             </div>
         </div>
     </div>
@@ -87,38 +89,39 @@
     <div class="wrapper">
         <div class="row">
             <div class="col-1-2 center">
-            	<img src="null" alt="picture" />
-                <h2>Midnight</h2>
+            	<img src="img/midnight.png" alt="picture" />
+                <h2 class="h2products">Midnight</h2>
                 <p class="h3">Dark</p>
                 <p class="h4">$17.95 Per Pound</p>
                 <p>Roasted into second crack for a big, bold and dark cup. Beans display oil. From Latin America</p>
-                <a href="#">Buy Now</a>
+                <div class="btn"><a class="btn-buy" href="#">Buy Now</a></div>
             </div>
             <div class="col-1-2 center">
-              	<h2>Espresso</h2>
+            	<img src="img/espresso.png" alt="picture" />
+              	<h2 class="h2products">Espresso</h2>
                 <p class="h3">Special Roast</p>
                 <p class="h4">$19.95 Per Pound</p>
                 <p>Clean, a little roasty, sumptuous crema, unfussy, and delicious. From Latin America, Africa and Indonesia.</p>
-                <a href="#">Buy Now</a>
+                <div class="btn"><a class="btn-buy" href="#">Buy Now</a></div>
             </div>
         </div>
     </div>
     
     <div class="wrapper">
         <div class="row">
-            <div class="col-8-12 center">
-            <p>Online orders usually ship quickly and arrive within three business days. We only ship the freshest coffee and your satisfaction is guaranteed. Our rotating, featured coffees are roasted on a more limited basis and your order may be held until the next time a batch hits the roaster. We only ship whole bean, but will grind for you instore per request.</p>
+            <div class="col-8-12 center center-block">
+            <p id="info">Online orders usually ship quickly and arrive within three business days. We only ship the freshest coffee and your satisfaction is guaranteed. Our rotating, featured coffees are roasted on a more limited basis and your order may be held until the next time a batch hits the roaster. We only ship whole bean, but will grind for you instore per request.</p>
             </div>
         </div>
     </div>    
 </section>
 
-<section>
+<section class="section1" id="ourProccess">
     <div id="background-color">
         <div class="wrapper">
             <div class="row">
                 <div class="col-1-1 center">
-                    <h2>Our Proccess</h2>
+                    <h2 id="top-margin">Our Proccess</h2>
                     <p class="h3">High Quality Control</p>
                     <p>Our coffee is roasted in a hot air, refractory lined roaster with an extraordinary level of control. The significance of relying on a high volume of hot air to roast coffee beans can't be understated. Most small coffee roasters use a single stage burner which offers virtually no control during the roasting process. The refractory significantly reduces hot spots which can damage coffee beans and produces a much more even roasting environment.</p>
                 </div>
@@ -128,24 +131,35 @@
 </section>
 
 
-<div class="wrapper">
+<div class="wrapper" id="contactForm">
 	<div class="row">        
-        <div class="col-8-12 center">
-        	<form>
-            	<label for="firstName">First Name</label>
-                <input type="text" id="firstName">
-                
-                <label for="lastName">Last Name</label>
-                <input type="text" id="lastName">
-                
-                <label for="email">E-Mail</label>
-                <input type="email" id="email">
-                
-                <textarea placeholder="Comment"></textarea>
-                
-                <button type="submit">Submit</button>
-               
-        	</form>
+        <div class="col-8-12 center center-block">
+         	<form class="cd-form floating-labels">
+                <fieldset>
+                    <legend>Contact Us</legend>
+        
+                    <div class="icon">
+                        <label class="cd-label" for="cd-name">Name</label>
+                        <input class="user" type="text" name="cd-name" id="cd-name" required>
+                    </div> 
+        
+                    <div class="icon">
+                        <label class="cd-label" for="cd-email">Email</label>
+                        <input class="email error" type="email" name="cd-email" id="cd-email" required>
+                    </div>
+                </fieldset>
+        
+                <fieldset>
+                    <div class="icon">
+                        <label class="cd-label" for="cd-textarea">Comments, Questions, and Problems</label>
+                        <textarea class="message" name="cd-textarea" id="cd-textarea" required></textarea>
+                    </div>
+        
+                    <div>
+                        <input type="submit" value="Submit Form">
+                    </div>
+                </fieldset>
+            </form>
         </div>        
     </div>
 </div>
@@ -177,7 +191,7 @@
     	<div class="col-1-1 center">
         	<h2>Come and Meet Us</h2>
             <p>You can buy from us directly at our Seattle storefront located at 457 NW Market Street.</p>
-            <img src="null" alt="Map for Twin Finch" />
+            <a href="https://www.google.com/maps/place//" target="_blank"><img src="http://maps.googleapis.com/maps/api/staticmap?center=&zoom=16&scale=1&size=600x300&maptype=roadmap&format=png&visual_refresh=true&markers=size:mid%7Ccolor:0xff2737%7Clabel:1%7C47.6686065,-122.3624483" alt="Google Map of "></a>
         </div>
     </div>
 </div>
@@ -212,5 +226,6 @@
         </div>
     </div>
 </footer>
-</body>
+<script src="js/main.js"></script>
+
 </html>
