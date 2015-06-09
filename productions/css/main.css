@@ -19,17 +19,32 @@ html {
 
 .row {
 	width:100%;
-	padding-bottom:20px; 
+	padding-bottom:1.1111111111rem; 
 }
 
 .section1 {
-	height:600px;	
+	height:33.3333333333rem;	
 }
 
 #top-margin {
-	margin-top:130px;	
+	margin-top:7.2222222222rem;	
 }
 
+.size {
+	height:12.5rem;
+	margin-top:11.25rem;
+}
+
+.width {
+	width:19rem;	
+}
+
+.pull-left {
+	float:left;	
+}
+.pull-right {
+	float:right;	
+}
 /*======= Typography ===========================
 ================================================*/
 
@@ -67,6 +82,15 @@ p {
 	line-height: 1.4rem;	
 }
 
+.align-left {
+	text-align:left;	
+}
+
+.align-right {
+	text-align:right;	
+}
+
+
 a {
 	color: black;
 	text-decoration:none;
@@ -79,12 +103,12 @@ a {
 .btn-buy {
 	background-color:#DA5332;
 	color:#f2f2f2;
-	padding:15px 20px;
+	padding:.8333333333rem 1.1111111111rem;
 }
 
 .btn-buy:hover{
 	background-color: #B62A2A;
-	padding:15px 20px;	
+	padding:.8333333333rem 1.1111111111rem;
 }
 
 
@@ -96,18 +120,22 @@ a {
 /*======= HEADER   ====================================
 =========          ==================================*/
 header {
-	height:109px;
+	height:6.05555555556rem;
 	background-color: #F2F2F2;
 	position: fixed;
   	width: 100%;
-  	margin-bottom: 100px;
+  	margin-bottom: 5.5555555556rem;
   	top: 0px;
   	left: 0px;
 	z-index:1;	
 }
 
 #logo {
-	height: 109px;
+	height: 6.05555555556rem;
+}
+
+nav {
+	margin-top:1.38888888889rem;	
 }
 
 nav ul {
@@ -115,19 +143,19 @@ nav ul {
 }
 
 nav ul li {
-	padding:14.95px;
+	padding:.8305555556rem;
 	display:inline-block;
 	font-weight:300;
 }
 
 nav ul li a {
-	padding:10px 10px;	
+	padding:.5555555556rem .5555555556rem;	
 }
 
 nav ul li a:hover {
 	color:white;
 	background-color:#DA5332;
-	padding:10px 10px;	
+	padding:.5555555556rem .5555555556rem;	
 }
 
 nav ul li a:active {
@@ -143,31 +171,30 @@ nav ul li a:active {
 ========             =======================================*/
 
 #aboutUs {
-	margin-top: 100px;	
+	margin-top: 5.5555555556rem;	
 }
 
 #section1 {
-	height:600px;
+	height:33.3333333333rem;
 	background-color: white;	
 }
 
 #section1 h2 {
-	margin-top:130px;
+	margin-top:7.2222222222rem;
 }
 
 #section1 a {
 	background-color:#DA5332;
 	color:#F2F2F2;	
 	line-height:4rem;
-	padding:15px 20px;
+	padding:.8333333333rem 1.1111111111rem;
 }
 
 #section1 a:hover {
 	background-color:#B62A2A;
 	color:#F2F2F2;	
 	line-height:4rem;
-	padding:15px 20px;
-}
+	padding:.8333333333rem 1.1111111111rem;}
 
 /*======   END OF ABOUT US  =========================================
 ========                    =======================================*/
@@ -179,7 +206,7 @@ nav ul li a:active {
 
 #hero {
 	background:url(../img/hero_2.jpg) no-repeat center;
-	height:625px;
+	height:98.42519685%;
 	width:100%;
 	-webkit-background-size: cover;
   	-moz-background-size: cover;
@@ -189,7 +216,7 @@ nav ul li a:active {
 
 #hero h2, #hero blockquote {
 	color: white;
-	padding-top: 420px;
+	padding-top: 23.3333333333rem;
 }
 
 #hero h2 {
@@ -201,8 +228,7 @@ nav ul li a:active {
 	font-style:italic;
 	font-weight:300;
 	font-size:1rem;
-	margin:0;
-	padding:0 10px;
+	padding:0 .5555555556rem;
 }
 
 #herotype {
@@ -212,6 +238,9 @@ nav ul li a:active {
 
 }	
 
+#topmargin {
+	margin-top:5.5555555556rem;	
+}
 
 form {
 	display:block;	
@@ -219,7 +248,7 @@ form {
 
 #info {
 	font-size:.7rem;	
-	margin-top:30px;
+	margin-top:1.6666666667rem;
 }
 
 #review {
@@ -227,8 +256,44 @@ form {
 	margin-top:1rem;	
 }
 
+#fh {
+	font-size: 2.96499983rem;
+	}
 
+#ourProccess {
+	background-color:#1a2530;	
+}
 
+#ourProccess h2, #ourProccess #color {
+		color:#f2f2f2;
+}
+
+#ourProccess .h3 {
+	color:#cce0f4;	
+}
+
+#feed {
+	background-color: red;
+	height:150px;	
+}
+
+#feed2 {
+	height:300px;
+	background-color: green;	
+}
+
+/*==== GOOGLE MAPS   ===================================================
+======               =================================================*/
+
+#map-canvas{
+	width: 100%;	
+	height:300px;
+}
+
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}
 
 
 
@@ -236,12 +301,12 @@ form {
 =====          ======================================================*/
 
 form {
-	font-size:14px;	
+	font-size:.7777777778rem;	
 }
 
 .cd-form {
   width: 90%;
-  max-width: 500px;
+  max-width: 27.7777777778rem;
   margin: 4em auto;
 }
 .cd-form::after {
@@ -251,23 +316,18 @@ form {
 }
 .cd-form fieldset {
 	border-style: none;
-	margin: 24px 0;
 }
 .cd-form legend {
   font-family: 'Paytone One', sans-serif;
-  padding-bottom: 10px;
-  margin-bottom: 20px;
   font-size: 3.9375rem;
 }
 .cd-form div {
   /* form element wrapper */
   position: relative;
-  margin: 20px 0;
 }
 .cd-form h4, .cd-form .cd-label {
   font-size: 1.3rem;
   color: #94aab0;
-  margin-bottom: 10px;
 }
 .cd-form .cd-label {
   display: block;
@@ -296,10 +356,10 @@ form {
 .cd-form textarea,
 .cd-form select {
   /* general style for input elements */
-  padding: 12px;
-  border: 1px solid #cfd9db;
+  padding: .6666666667rem;
+  border: .0555555556rem solid #cfd9db;
   background-color: #ffffff;
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.08);
+  box-shadow: inset 0 .0555555556rem .0555555556rem rgba(0, 0, 0, 0.08);
 }
 .cd-form input[type="text"]:focus,
 .cd-form input[type="email"]:focus,
@@ -307,7 +367,7 @@ form {
 .cd-form select:focus {
   outline: none;
   border-color: #2c97de;
-  box-shadow: 0 0 5px rgba(44, 151, 222, 0.2);
+  box-shadow: 0 0 .2777777778rem rgba(44, 151, 222, 0.2);
 }
 .cd-form .cd-select {
   /* select element wapper */
@@ -318,24 +378,21 @@ form {
   content: '';
   position: absolute;
   z-index: 1;
-  right: 16px;
+  right: .8888888889rem;
   top: 50%;
-  margin-top: -8px;
+  margin-top: -.8888888889rem;
   display: block;
-  width: 16px;
-  height: 16px;
+  width: .8888888889rem;
+  height: .8888888889rem;
   background: url("../img/cd-icon-arrow.svg") no-repeat center center;
   pointer-events: none;
 }
 .cd-form select {
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 .0555555556rem .16666666667rem rgba(0, 0, 0, 0.08);
   cursor: pointer;
 }
 .cd-form select::-ms-expand {
   display: none;
-}
-.cd-form .cd-form-list {
-  margin-top: 16px;
 }
 .cd-form .cd-form-list::after {
   clear: both;
@@ -350,11 +407,11 @@ form {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  margin: 0 26px 16px 0;
+  margin: 0 1.4444444444rem .8888888889rem 0;
   float: left;
 }
 .cd-form textarea {
-  min-height: 200px;
+  min-height: 11.1111111111rem;
   resize: vertical;
   overflow: auto;
 }
